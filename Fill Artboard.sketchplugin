@@ -1,0 +1,20 @@
+//(control f)
+//Expands a layer to fill (cover) an artboard
+//Useful to use a layer as a solid background fill
+
+var layer = selection[0];
+var layerFrame = [layer frame];
+var artboard = [[doc currentPage] currentArtboard] || [doc currentPage];
+
+//Fill the artboard
+[layerFrame setX:0];
+[layerFrame setY:0];
+[layerFrame setWidth:[[artboard frame] width]];
+[layerFrame setHeight:[[artboard frame] height]];
+
+//Remove all borders
+var borders = [[layer style] borders];
+
+for (var i = 0; i < [borders count]; i++) {
+    [borders removeStylePartAtIndex:0];
+}
