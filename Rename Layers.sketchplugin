@@ -2,10 +2,10 @@
 //Rename all selected layers to the same entered name
 
 if ([selection count] >= 1) {
-	var newName = [doc askForUserInput:"New layer name" initialValue:selection[0].name()];
+    var newName = [doc askForUserInput:"New layer name" initialValue:selection[0].name()];
 
-	for (var i=0; i<[selection count]; i++) {
-		var layer = selection[i];
+    for (var i=0; i<[selection count]; i++) {
+        var layer = selection[i];
         [layer setName:newName];
-	}
+    }
 }
