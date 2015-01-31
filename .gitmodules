@@ -10,3 +10,6 @@
 [submodule "Invert-Background-Color"]
 	path = Invert-Background-Color
 	url = https://github.com/sebj/Invert-Background-Color.git
+[submodule "Setup-Iconset-Artboards"]
+	path = Setup-Iconset-Artboards
+	url = https://github.com/sebj/Setup-Iconset-Artboards.git
