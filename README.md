@@ -1,4 +1,4 @@
-##Sketch Plugins
+## Sketch Plugins
 
 No common theme, just a few [Sketch](http://bohemiancoding.com/sketch/) plugins I've created and found to be useful. Head to the repos and click `Download ZIP`, or clone the git repository with `git clone..` in Terminal, to get them.
 
@@ -8,7 +8,6 @@ No common theme, just a few [Sketch](http://bohemiancoding.com/sketch/) plugins 
 * [Rename Selected Layers](https://github.com/sebj/Rename-Layers)
 * [Setup .iconset Artboards](https://github.com/sebj/Setup-Iconset-Artboards)
 
-===
+---
 
-* [Official Sketch plugin directory...](http://www.sketchapp.com/plugins)
-* [Unofficial GitHub plugin directory...](https://github.com/sketchplugins/plugin-directory)
+See also the official Sketch plugin directory [website](https://www.sketchapp.com/extensions/plugins/) and [GitHub repo](https://github.com/sketchplugins/plugin-directory).
